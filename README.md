@@ -1,7 +1,7 @@
 Symantec VeriSign Identity Protection (VIP) TOTP Generator
 ================
 
-This repository a Docker wrapper around [@cyrozap](https://github.com/cyrozap)'s [python-vipaccess](https://github.com/cyrozap/python-vipaccess), which is a free and open source software (FOSS) implementation of Symantec's VIP Access client. In combination with this repository, it generates OTPAUTH URIs by running a Docker container so that any TOTP-generating application can be used as a Symantec VIP OTP token.
+This repository is a Docker wrapper around [@cyrozap](https://github.com/cyrozap)'s [python-vipaccess](https://github.com/cyrozap/python-vipaccess), which is a free and open source software (FOSS) implementation of Symantec's VIP Access client. In combination with this repository, it generates OTPAUTH URIs by running a Docker container so that any TOTP-generating application can be used as a Symantec VIP OTP token.
 
 You can see [@cyrozap](https://github.com/cyrozap)'s blog post [here](https://www.cyrozap.com/2014/09/29/reversing-the-symantec-vip-access-provisioning-protocol/), which describes how he reverse-engineered the VIP Access application.
 
@@ -20,7 +20,7 @@ PayPal supports 2FA using either a mobile phone number or a security key. Unfort
 
 Of course, you could go and order one such physical key and take it with you wherever they go (including the risk of losing and/or breaking it), or you could simply use this and generate your own Symantec VIP-compliant TOTP `otpauth://` URI, which can then be stored in any TOTP-supporting password manager, such as [1Password](https://1password.com/)
 
-You can connect your 2FA token to your account here: https://www.paypal.com/us/cgi-bin/webscr?cmd=_activate-security-key-any
+You can connect your 2FA token to your PayPal account here: https://www.paypal.com/us/cgi-bin/webscr?cmd=_activate-security-key-any
 
 
 Changelog
